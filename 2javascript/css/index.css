@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Lin
+ * @date    2022-03-02 08:56:40
+ * @version $Id$
+ */
+
+.m-box {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50px;
+    background-color: lightgrey;
+    font-size: 14px;
+    font-family: Lucida Grande;
+} 
+.m-item  {
+    left: 100px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 18px;
+    display:block;
+}
+.fn-active {
+    color: white;
+}

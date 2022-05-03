@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Lin
+ * @date    2022-03-30
+ * @version project6
+ */
+body {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.g {
+    position: absolute;
+    padding: 14px;
+    width: 1058px;
+    height: 677px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border: 1px solid lightgrey;
+    background-color: #f2f2f2;
+
+}
+.g-index {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    height: 326px;
+    margin-left: 8px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    text-decoration: none;
+}
+.g-index:hover {
+    border: 1px solid red;
+}
+.g-index:nth-child(3n+1) {
+    margin-left: 0px;
+}
+
+.m-top {
+    height: 230px;
+    background-color: #ffffeb;
+}
+.p {
+    width: 345px;
+    height: 230px;
+}
+
+.m-bm {
+    display: flex;
+    flex-direction: column;
+}
+.m-b1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 16px;
+    margin: 7px 7px 0px 7px;
+}
+.m-b1 span {
+    margin: 5px;
+    font-size: 14px;
+    color: black;
+}
+.m-b1 span:nth-child(2){
+    margin-left: 20px;
+    color: red;
+}
+.m-b1 span:nth-child(3) {
+    margin-left: 1px;
+    color: grey;
+}
+.gift {
+    position: absolute;
+    margin: -7px 3px;
+    width: 15px;
+    height: 15px;
+}
+
+.m-b2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 7px;
+    height: 36px;
+    background-color: white;
+}
+.m-b2 span{
+    margin-left: 1px;
+    font-size: 19px;
+    color: red;
+
+}
+.m-b2 span:nth-child(2) {
+    margin:0 1px;
+    line-height: 34px;
+    letter-spacing: -1px;
+    font-size: 32px;
+}
+.m-b2 h1 {
+    margin:0 5px;
+    font-size: 13px;
+    text-decoration: line-through;
+    color: grey;
+    font-weight: normal;
+}
+.m-b2 h3 {
+    margin:0 0 0 1px;
+    font-size: 14px;
+    color: grey;
+    font-weight: normal;
+}
+.one {
+    margin:0 0 0 116px;
+    font-size: 15px;
+    color: red;
+}
+.two {
+    margin:0 0 0 126px;
+    font-size: 15px;
+    color: red;
+}
+.three {
+    margin:0 0 0 109px;
+    font-size: 15px;
+    color: red;
+}
+
+/**
+ * #ffffeb
+/

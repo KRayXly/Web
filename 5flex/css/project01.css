@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Lin
+ * @date    2022-03-30
+ * @version project6
+ */
+body {
+    list-style: none;
+    background-color: #99BD8F;
+}
+.g-index {
+    width: 800px;
+    background-color: #99BD8F;
+}
+.m-hd {
+    display: flex;
+    border: 20px solid #CDD3F5;
+    border-bottom: 0;
+    padding: 20px;
+}
+.m-hd li {
+    width: 80px;
+    height: 80px;
+    margin-right: 40px;
+    background-color: #CDD3F5;
+}
+.m-hd li:last-child {
+    margin-right: 0px;
+}
+.m-hd em {
+    flex: 1;
+}
+.m-bd {
+    display: flex;
+    border: 20px solid #CDD3F5;
+}
+.m-lt {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    padding: 20px;
+}
+.top {
+    height: 300px;
+    background-color: #CDD3F5;
+}
+.bt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+.bt li {
+    width: 50px;
+    height: 50px;
+    background-color: #CDD3F5;
+}
+.m-rt {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+}
+.m-rt li {
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: #CDD3F5;
+}
+
+
+/**
+ * #99BD8F
+ * #CDD3F5
+/

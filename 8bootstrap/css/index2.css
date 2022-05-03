@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Lin
+ * @date    2022-04-20
+ * @version project9
+ */
+li{
+    list-style: none;
+}
+.container {
+    margin: 0;
+    padding-left: 80px;
+}
+.head {
+    background-color: #008def;
+    padding-right: 60px;
+    height: 95px;
+    padding-left: 60px;
+}
+.head1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+.head1 a {
+    color: white;
+}
+.one {
+    color: white; 
+    font-size: 15px;
+    display: flex;
+}
+.one li {
+    width:60px;
+    height:30px; 
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+}
+.one li:hover {
+    background-color: #0069b4;
+    border-radius: 4px;
+}
+.onesel {
+    background-color: #008def; 
+    border:0;
+    color: white;
+}
+.onesel:hover {
+    padding-left: 4px;
+    width: 60px;
+    background-color: #0069b4;
+    border-radius: 4px;
+} 
+.two {
+    padding: 0;
+    display: flex;
+    border-collapse: separate;
+    margin-left: 55px;
+    height:30px;
+}
+.twosel {
+    border:0;
+    width: 80px;
+    padding-top: 2px;
+    border-radius: 0;
+    height: 30px;
+}
+.twoser {
+    border:0;
+    border-radius: 0;
+    width: 240px;
+    height: 30px;
+}
+.twoimg {
+    background-color: #fff
+    width: 35px;
+    padding-right: 5px;
+}
+.box1 {
+    height: 250px; 
+    background-color: #666666;
+}
+.right {
+    background-color: #f4f4f4;
+    height: 250px;
+    margin-left: 20px;
+    text-align: center;
+}
+.rightbut {
+    height: 35px;
+    background-color: #009dff;
+    border-radius: 4px;
+    width: 150px;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.three {
+    margin-left: 20px;
+    color: #009dff;
+}
+.three span:nth-child(2){
+    margin-left: 5px;
+    color: grey;
+}
+
+.line1 {
+    font-size: 20px;
+    padding-left: 0;
+}
+.line2 {
+    display: flex;
+    margin-left: 20px;
+    padding-right: 0;
+    width: 370px;
+    font-size: 16px;
+}
+.line2 div:nth-child(2){
+    margin-left: 240px;
+}
+
+.four {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.m1 {
+    border:1px solid lightgrey;
+    padding: 20px;
+    padding-bottom: 15px;
+}
+.font {
+    white-space: normal;
+    word-break: break-all;
+    word-wrap: break-word;
+    text-indent: 2em;
+    margin-top: 15px;
+    color: grey;
+
+}
+.box2 {
+    width:160px;
+    height: 100px;
+    background-color:#666666;
+}
+.tips {
+    border-radius: 3px;
+    background-color: #fb7242;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    width: 30px;
+    height: 18px;
+    margin-top: 5px;
+}
+.box3 {
+    width: 260px;
+    height: 150px;
+    background-color:#666666;
+}
+.img {
+    margin-top: 65px;
+    margin-left: 5px;
+    color: white;
+}
+.m2 {
+    float: right;
+    color: grey;
+    margin-top: 15px;
+}
+.box4 {
+    width: 285px;
+    height: 90px;
+    background-color: #666666;
+}
+.tip1 {
+    position: absolute;
+    top: 80px;
+    left: 220px;
+    height: 0;
+    position: relative;
+    color:  white;
+    transform: rotate(45deg);
+}
+.tip2 {
+    position: absolute;
+    left: 246px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border-top: 40px solid #009dff;
+    border-right: 40px solid #009dff;
+    border-bottom: 40px solid rgba(0, 0, 0, 0);
+    border-left: 40px solid rgba(0, 0, 0, 0);
+}
+.box5 {
+    position: absolute;
+    left: 286px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border-top: 20px solid white;
+    border-right: 20px solid white;
+    border-bottom: 20px solid rgba(0, 0, 0, 0);
+    border-left: 20px solid rgba(0, 0, 0, 0);
+}
+.font1 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.font2 {
+    margin-top: 10px;
+    color: grey;
+}
+.m3 {
+    border:1px solid lightgrey;
+    padding: 20px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #008def; 
+    margin-bottom: 10px;
+}
+.m4 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed grey;
+}
+.box6 {
+    width: 180px;
+    height: 100px;
+    background-color: #666666;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding-top: 80px;
+}
+.tip3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
